@@ -27,7 +27,7 @@ module DNA
          end
          i += 1
       end
-      Math.exp(score.to_f / target.size.to_f)
+      score.to_f / target.size.to_f
     end
 
     def reproduce(partner : DNA) : DNA
